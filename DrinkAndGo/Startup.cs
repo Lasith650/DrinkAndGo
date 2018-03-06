@@ -22,6 +22,7 @@ namespace DrinkAndGo
         {
             if (env.IsDevelopment())
             {
+                
                 app.UseDeveloperExceptionPage();
             }
 
@@ -30,5 +31,7 @@ namespace DrinkAndGo
                 await context.Response.WriteAsync("Hello World!");
             });
         }
+
+       
     }
 }

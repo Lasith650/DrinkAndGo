@@ -5,6 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Components\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Migrations\" />
+    <Folder Include="Views\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="TagHelpers\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
